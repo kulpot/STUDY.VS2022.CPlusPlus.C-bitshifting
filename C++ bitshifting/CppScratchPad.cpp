@@ -5,7 +5,10 @@ using std::endl;
 // ----------------------- C++ bitshifting ----------------------------------
 //ref link:https://www.youtube.com/watch?v=PMEsQQ_Dj-8&list=PLRwVmtr-pp043Ah3GxAqNyoMGyo3_LDNh&index=4
 
-// bitshifting - odometer - 0009
+// bitshifting 
+// odometer - 0000-9999 - min-max base10
+// computer - 0000-1111 - min-max base2
+// integer - 4bytes - 0000 0000 0000 0000 0000 0000 0000 0000 - 32bits
 
 void main()
 {
