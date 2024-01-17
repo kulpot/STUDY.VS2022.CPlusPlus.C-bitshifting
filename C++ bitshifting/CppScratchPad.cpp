@@ -12,7 +12,12 @@ using std::endl;
 
 void main()
 {
+	//int myInt = 1;
+	cout << sizeof(short) << endl;	// 2bytes
+	cout << sizeof(int) << endl;	// 4bytes
 
+	short myValue = 1;
+	cout << myValue << endl;
 }
 
 
