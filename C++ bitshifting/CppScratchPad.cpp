@@ -2,6 +2,8 @@
 using std::cout;
 using std::endl;
 
+// ----------------------- C++ bitshifting ----------------------------------
+//ref link:https://www.youtube.com/watch?v=PMEsQQ_Dj-8&list=PLRwVmtr-pp043Ah3GxAqNyoMGyo3_LDNh&index=4
 
 
 
