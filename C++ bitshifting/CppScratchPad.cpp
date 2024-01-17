@@ -13,11 +13,22 @@ using std::endl;
 void main()
 {
 	//int myInt = 1;
-	cout << sizeof(short) << endl;	// 2bytes
-	cout << sizeof(int) << endl;	// 4bytes
-
+	//cout << sizeof(short) << endl;	// 2bytes
+	//cout << sizeof(int) << endl;	// 4bytes
+	
+	// memory representation: 0000 0000 0000 0001
 	short myValue = 1;
-	cout << myValue << endl;
+	myValue = myValue << 1;		// bitshifting operator << by 1
+	// memory representation: 0000 0000 0000 0010	output: 2 
+	myValue = myValue << 1;
+	// memory representation: 0000 0000 0000 0100	output: 4 
+	myValue = myValue << 5;		// bitshifting operator << by 5
+	// memory representation: 0000 0000 1000 0000	output: 128
+	myValue = myValue << 1;		// bitshifting operator << by 1
+	// memory representation: 0000 0001 0000 0000	output: 256 
+
+
+	cout << myValue << endl;	// stream inserting operator << 
 }
 
 
